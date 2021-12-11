@@ -1,19 +1,7 @@
 #include <iostream>
-//#include "lib.h"
+#include "lib.h"
 
 using namespace std;
-
-float massimo (float numeri[], int n){
-    float max;
-    max = numeri [0];
-
-    for (int i = 0; i < n; i++){
-        if (max < numeri [i]){
-            max = numeri [i];
-        }
-    }
-    return max;
-};
 
 int main () {
     int n = 0;
