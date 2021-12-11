@@ -4,7 +4,7 @@
 
 #include "lib.h"
 
-int massimo (float numeri[], int n){
+float massimo (float numeri[], int n){
     float max;
     max = numeri [0];
 
