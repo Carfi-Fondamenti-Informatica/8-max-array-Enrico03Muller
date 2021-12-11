@@ -13,7 +13,7 @@ int main () {
         cout << "Inserisci il valore " << i << " dell'array: ";
         cin >> numeri[i];
     }
-    cout << test(4,5);
+
     cout << check (numeri, n) << endl;
     return 0;
 }
