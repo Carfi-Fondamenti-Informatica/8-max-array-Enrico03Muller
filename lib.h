@@ -4,5 +4,5 @@
 
 #ifndef ESERCIZIO8_0_0_LIB_H
 #define ESERCIZIO8_0_0_LIB_H
-float massimo (float, int);
+float check (const float numeri [], int n);
 #endif //ESERCIZIO8_0_0_LIB_H
